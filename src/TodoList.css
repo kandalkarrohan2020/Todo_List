@@ -1,0 +1,70 @@
+
+
+.TodoList {
+    width: 500px;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgb(0, 4, 255),rgb(22, 13, 116));
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: 0.4s;
+
+
+}
+
+.input-box {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(16, 16, 89);
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 20px;
+    
+
+}
+
+.input-box input {
+    width: 70%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 40px;
+   
+}
+
+
+.input-box button:active {
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+
+.input-box input::placeholder {
+    font-size: 17px;
+    position: relative;
+    color: rgb(234, 234, 234);
+    
+    
+}
+
+.input-box button {
+    width: 20%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    background-color:white;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10%;
+    border-top: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
