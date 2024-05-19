@@ -21,7 +21,9 @@
     border: 2px solid white;
     border-radius: 30px;
     margin: 20px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -68,3 +70,25 @@
     cursor: pointer;
 }
 
+@media only screen and (max-width: 600px) {
+    .TodoList {
+      width: 350px;
+    }
+  }
+
+  @media only screen and (max-width: 370px) {
+    .TodoList {
+      width: 300px;
+    }
+    .input-box input{
+        width: 65%;
+        font-size: 16px;
+        left: 20px;
+    }
+    .input-box input::placeholder{
+        font-size: 16px;
+    }
+    .input-box button {
+        width: 25%;
+    }
+  }
